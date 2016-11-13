@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+
+body {
+  margin: 0;
+  background-color: #e6e6ff;
+
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+.asdf {
+  background-color: rgba(50, 50, 50, .5);
+  width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.asd {
+  margin-top: 50px;
+}
+
+#topmenu {
+  height:30px;
+  max-width:1000 px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#topmenu ul li {
+  list-style:none;
+  color:white;
+  background-color: #2d2d2d;
+  float:left;
+  line-height:30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#topmenu .menulink {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 150px;
+  font-size: 12px;
+  font-weight:bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+#topmenu .menulink:hover {
+  color:yellow;
+  background-color: #6d6d6d;
+}

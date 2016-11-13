@@ -1,0 +1,125 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Audiowide|Black+Ops+One|Bungee|Dancing+Script:700|Fontdiner+Swanky|Monoton|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+  margin: 0;
+  background-color: #e6e6ff;
+
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  scrollbar-face-color:#00c1f0;
+  scrollbar-shadow-color:#00c1f0;
+
+      scrollbar-highlight-color:#00c1f0;
+      scrollbar-3dlight-color:#00c1f0;
+      scrollbar-darkshadow-color:#00c1f0;
+      scrollbar-base-color:#00c1f0;
+      scrollbar-arrow-color:#ffffff;
+      scrollbar-track-color:#ffffff;
+}
+
+
+.asdf {
+  background-color: rgba(50, 50, 50, .5);
+  width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.asd {
+  margin-top: 50px;
+}
+
+#topmenu {
+  height:30px;
+  max-width:1000 px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#topmenu ul li {
+  list-style:none;
+  color:white;
+  background-color: #2d2d2d;
+  float:left;
+  line-height:30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#topmenu .menulink {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 150px;
+  font-size: 12px;
+  font-weight:bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+#topmenu .menulink:hover {
+  color:yellow;
+  background-color: #6d6d6d;
+}
+
+section.under_wrap{
+  position: relative; left: 0px;
+  min-height: 700px;
+  width: 1380px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.undermenu2_wrap{
+  width: 1380px;
+  padding: 0px 0 0 20px;
+}
+.notice_caption{
+  font-family: DX경필명조B;
+  padding-left: 10px;
+  color:#f9a2c5;
+  font-size: 23px;
+}
+.notice_caption strong{
+font-weight: bold;
+font-size:25px;
+color: #79e8f7;
+}
+table.undermenu2{
+  width: 1200px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.undermenu2 caption{
+  display: none;
+}
+table.undermenu2 tr th{
+  background-color: #81ef93;
+  color: white;
+  font-family: 'Amatica SC', cursive;
+  font-weight: normal;
+  vertical-align: top;
+  height: 25px;
+  padding: 7px 0 3px 0;
+  font-size: 20px;
+  border-left: 2px solid #fff;
+}
+table.undermenu2 thread tr th.under_no{
+  width: 20%;
+}
+table.undermenu2 tbody tr td{
+  font-family: 서울남산 장체L;
+  text-align:center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: normal;
+  color: #888;
+  border-bottom: 1px solid #e9e9e1;
+}
